@@ -14,12 +14,19 @@ Extend mocha function. "its": run cases multiple times; "its_seq", "its_par" : r
 
   //This test case will run for 10 seconds
   its_seq(10, 'its_seq', async function () {
+    this.beforeAll(() => {
+       //this code will only run once
+    })
     await sleep(1000)
   })
 
-  //This test case will run for 1 seconds
+  //This test case will run for 2 seconds
   its_par(10, 'its_par', async function () {
     await sleep(1000)
+    await this.afterAll(async() => {
+       //this code will only run once
+       await sleep(1000)
+    })
   })
 ```
 
