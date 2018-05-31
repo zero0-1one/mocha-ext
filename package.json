@@ -1,6 +1,6 @@
 {
   "name": "zo-mocha-ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extend mocha function. \"its\": run cases multiple times; \"its_seq\", \"its_par\" : run sync cases multiple times sequentially or parallel",
   "main": "index.js",
   "scripts": {
