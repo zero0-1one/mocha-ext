@@ -1,0 +1,29 @@
+{
+  "name": "zo-mocha-ext",
+  "version": "1.0.0",
+  "description": "Extend mocha function. \"its\": run cases multiple times; \"its_seq\", \"its_par\" : run sync cases multiple times sequentially or parallel",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zero0-1one/mocha-ext.git"
+  },
+  "keywords": [
+    "mocha-ext",
+    "mocha"
+  ],
+  "author": "zero0-1one",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zero0-1one/mocha-ext/issues"
+  },
+  "homepage": "https://github.com/zero0-1one/mocha-ext#readme",
+  "dependencies": {
+    "@captemulation/get-parameter-names": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
