@@ -8,17 +8,17 @@ Extend mocha function. "its": run cases multiple times; "its_seq", "its_par" : r
 
 # Usage
 ```js
-  its(10, 'iteration', function () {
+  its(10, 'its', function () {
     //this code will be run 10 times
   })
-  
+
   //This test case will run for 10 seconds
-  its_seq(10, 'iteration', async function () {
+  its_seq(10, 'its_seq', async function () {
     await sleep(1000)
   })
 
   //This test case will run for 1 seconds
-  its_par(10, 'iteration', async function () {
+  its_par(10, 'its_par', async function () {
     await sleep(1000)
   })
 ```
