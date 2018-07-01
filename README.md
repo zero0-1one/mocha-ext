@@ -3,7 +3,7 @@ Extend mocha function. "its": run cases multiple times; "its_seq", "its_par" : r
 
 # Installation
 ```sh
-  npm install  zo-mocha-ext --save
+  npm install  zo-mocha-ext --save-dev
 ```
 
 # Usage
